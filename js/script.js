@@ -262,7 +262,7 @@ var o = $('#camera');
             include('js/jquery.mobile.customized.min.js');
         }
 
-        include('js/camera.js');
+        include('js/lib/camera.js');
 
         $(document).ready(function () {
             o.camera({

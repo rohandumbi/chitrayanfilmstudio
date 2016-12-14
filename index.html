@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/jquery.fancybox.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <script src="js/lib/jquery-3.1.1.js"></script>
+  <script src="js/lib/jquery.js"></script>
   <script src="js/jquery-migrate-1.2.1.js"></script>
 
   <!--[if lt IE 9]>
@@ -33,6 +33,52 @@
                             HEADER
   =========================================================-->
   <header>
+    <div id="stuck_container" class="stuck_container">
+      <nav class="nav">
+        <ul class="sf-menu" data-type="navbar">
+          <li class="active">
+            <a href="./">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="services.html">Services</a>
+            <ul>
+              <li>
+                <a href="#">Indoor Studio Locations</a>
+              </li>
+              <li>
+                <a href="#">Outdoor Shooting</a>
+                <ul>
+                  <li>
+                    <a href="#">Lorem</a>
+                  </li>
+                  <li>
+                    <a href="#">Dolor</a>
+                  </li>
+                  <li>
+                    <a href="#">Sit amet</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Facilities and Services</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="news.html">News</a>
+          </li>
+          <li>
+            <a href="testimonials.html">Testimonials</a>
+          </li>
+          <!--<li>
+            <a href="contact.html">Contact</a>
+          </li>-->
+        </ul>
+      </nav>
+    </div>
     <div class="header-top">
       <div class="camera_container">
         <div class="container brand_container">
@@ -59,58 +105,11 @@
         </div>
       </div>
     </div>
-    <div id="stuck_container" class="stuck_container">
-      <nav class="nav">
-        <ul class="sf-menu" data-type="navbar">
-          <li class="active">
-            <a href="./">Home</a>
-          </li>
-          <li>
-            <a href="index-1.html">About</a>
-          </li>
-          <li>
-            <a href="index-2.html">Services</a>
-            <ul>
-              <li>
-                <a href="#">Indoor Studio Locations</a>
-              </li>
-              <li>
-                <a href="#">Outdoor Shooting</a>
-                <ul>
-                  <li>
-                    <a href="#">Lorem</a>
-                  </li>
-                  <li>
-                    <a href="#">Dolor</a>
-                  </li>
-                  <li>
-                    <a href="#">Sit amet</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#">Facilities and Services</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="index-3.html">News</a>
-          </li>
-          <li>
-            <a href="index-4.html">Testimonials</a>
-          </li>
-          <li>
-            <a href="index-5.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
   </header>
   <!--========================================================
                             CONTENT
   =========================================================-->
-  <main>
+  <main id="mainContent">
     <section class="well2">
       <div class="container wow fadeInUp">
         <div class="row">
@@ -158,8 +157,8 @@
               </a>
               <h6>Sed loreet aliquam leote llus dol.</h6>
               <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curs.</p>
-              <a class="btn" href="#">read more</a> 
-            </div>           
+              <a class="btn" href="#">read more</a>
+            </div>
           </div>
           <div class="grid_4 wow fadeInRight" data-wow-delay="0.4s">
             <div class="box">
@@ -239,12 +238,12 @@
           <div class="grid_6 wow fadeInLeft">
             <h5>Lorem ipsum dolor sit amet </h5>
             <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curss eleifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestibulum libero nisl porta vel scelerie eget malesu.</p>
-            <a class="btn" href="#">read more</a>            
+            <a class="btn" href="#">read more</a>
           </div>
           <div class="grid_6 wow fadeInRight">
             <h5>Eum libero nisl porta </h5>
             <p>Faucibus orci luctus et trices posuere cubilia Suspendisse sollicit udin velit sed leo. Ut pharetra aue nec augentum. Donec in velit vel ipsum auue. Nam elit magna Donec porta diam eu massa. Quisque diam lorem interdum vitaapibus ac sceleris.</p>
-            <a class="btn" href="#">read more</a>  
+            <a class="btn" href="#">read more</a>
           </div>
         </div>
       </div>
@@ -257,10 +256,10 @@
               <a href="#" class="box2_top">
                 <div class="counter">01</div>
                 <h3>Movies</h3>
-              </a>                
+              </a>
               <h5><a href="#">Lorem ipsum</a></h5>
               <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curss eleifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestib ulum libero nisl porta vel scelerie eget mal esuada at neque. Vivamus eget nibh. Etiamursus leo vel metus. Nulla facilisi lacuestib. Aenean nec eros.</p>
-            </div> 
+            </div>
           </div>
           <div class="grid_3">
             <div class="box2">
@@ -292,8 +291,8 @@
               <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curss eleifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestib ulum libero nisl porta vel scelerie eget mal esuada at neque. Vivamus eget nibh. Etiamursus leo vel metus. Nulla facilisi lacuestib. Aenean nec eros.</p>
             </div>
           </div>
-        </div> 
-      </div>      
+        </div>
+      </div>
     </section>
     <section>
       <div class="map">
@@ -322,7 +321,7 @@
           <p class="copy">Chitrayan ©
             <span id="copyright-year"></span> 
             <span class="dot"></span>
-            <a href="index-6.html">Privacy Policy</a>
+            <a href="privacy.html">Privacy Policy</a>
           </p>
         </div>
         <div class="grid_3">
@@ -351,6 +350,7 @@
   </footer>
 </div>
 
-<script src="js/script.js"></script>
-</body><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager -->
+<script src="js/utility/pageLoader.js"></script>
+<script src="js/utility/script.js"></script>
+</body>
 </html>

@@ -1,7 +1,3 @@
-function include(scriptUrl) {
-    document.write('<script src="' + scriptUrl + '"></script>');
-}
-
 function isIE() {
     var myNav = navigator.userAgent.toLowerCase();
     return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
@@ -262,12 +258,12 @@ var o = $('#camera');
             include('js/jquery.mobile.customized.min.js');
         }
 
-        include('js/lib/camera.js');
+        include('js/lib/camera_legacy.js');
 
         $(document).ready(function () {
             o.camera({
                 autoAdvance: true,
-                height: '50%',
+                height: '40%',
                 minHeight: '600px',
                 pagination: true,
                 thumbnails: false,

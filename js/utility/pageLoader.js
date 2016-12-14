@@ -8,7 +8,11 @@ function callPage(pageRefInput) {
         dataType: 'text',
         success: function(response){
             console.log("successfully loaded page");
-            $('.camera_container').hide();
+            if(pageRefInput === 'home.html'){
+                $('.camera_container').show();
+            }else{
+                $('.camera_container').hide();
+            }
             $('#mainContent').html(response);
             //include('js/utility/script.js');
         },
@@ -19,10 +23,10 @@ function callPage(pageRefInput) {
 }
 $("header").on( "click", "a", function( event ) {
     event.preventDefault();
-    //console.log( $( this ).text() );
+    $('li').removeClass('active');
     $(this).parent().addClass('active');
-    console.log('HREF: ' +  $(this).attr('href'));
-    callPage($( this ).attr('href'));
+    //console.log('HREF: ' +  $(this).attr('href'));
+    callPage($(this).attr('href'));
 });
 $(document).ready(function () {
     //callPage("home.html");

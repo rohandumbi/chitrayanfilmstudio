@@ -29,6 +29,7 @@ $("header").on( "click", "a", function( event ) {
     //console.log('HREF: ' +  $(this).attr('href'));
     callPage($(this).attr('href'));
 });
+
 $(document).ready(function () {
     //callPage("home.html");
 });

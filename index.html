@@ -1,341 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Home</title>
-  <meta charset="utf-8">
-  <meta name="format-detection" content="telephone=no"/>
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/grid.css">
-  <link rel="stylesheet" href="css/camera.css">
-  <link rel="stylesheet" href="css/google-map.css">
-  <link rel="stylesheet" href="css/jquery.fancybox.css">
-  <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/google-map.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/style.css">
 
-  <script src="js/lib/jquery.js"></script>
-  <script src="js/jquery-migrate-1.2.1.js"></script>
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
 
-  <!--[if lt IE 9]>
-  <html class="lt-ie9">
-  <div style=' clear: both; text-align:center; position: relative;'>
-    <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
-      <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
-           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
-    </a>
-  </div>
-  <script src="js/html5shiv.js"></script>
-  <![endif]-->
+    <!--[if lt IE 9]>
+    <html class="lt-ie9">
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
 
-  <script src='js/device.min.js'></script>
+    <script src='js/device.min.js'></script>
+    <!--<script src='http://maps.google.com/maps/api/js?key=AIzaSyBwLBvjNDEkLkboMNpLY_E_VTaCm-XxRLc'></script>-->
 </head>
 <body>
 <div class="page">
-  <!--========================================================
-                            HEADER
-  =========================================================-->
-  <header>
-    <div id="stuck_container" class="stuck_container">
-      <nav class="nav">
-        <ul class="sf-menu" data-type="navbar"style>
-          <li class="active">
-            <a href="home.html">Home</a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="services.html">Services</a>
-            <ul style="z-index:1000;">
-              <li>
-                <a href="#">Indoor Studio Locations</a>
-              </li>
-              <li>
-                <a href="#">Outdoor Shooting</a>
-              </li>
-              <li>
-                <a href="#">Facilities and Services</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="news.html">News</a>
-          </li>
-          <li>
-            <a href="testimonials.html">Testimonials</a>
-          </li>
-          <!--<li>
-            <a href="contact.html">Contact</a>
-          </li>-->
-        </ul>
-      </nav>
-    </div>
-    <div class="header-top">
-      <div class="camera_container">
-        <div class="container brand_container">
-          <div class="top-panel">
-            <ul class="list">
-              <li><span class="fa fa-map-marker"></span>Bagpota, Kolkata, West Bengal 700141</li>
-              <li><a href="callto:#"><span class="fa fa-phone"></span>+91 9739988366</a></li>
-              <!--<li><a href="#"><span class="fa fa-child"></span>login or register</a></li>-->
-            </ul>
-          </div>
-          <div class="brand">
-            <h1 class="brand_name">
-              <a href="./">Chitrayan</a>
-            </h1>
-            <p class="brand_slogan">
-              A modern movie town in the heart of Kolkata
-            </p>
-          </div>
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header>
+        <div id="stuck_container" class="stuck_container">
+            <nav class="nav">
+                <ul class="sf-menu" data-type="navbar" style>
+                    <li class="active">
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Location</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Explore</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                        <ul style="z-index:1000;">
+                            <li>
+                                <a href="#">Indoor Studio Locations</a>
+                            </li>
+                            <li>
+                                <a href="#">Outdoor Shooting</a>
+                            </li>
+                            <li>
+                                <a href="#">Facilities and Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Infrastructure</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="news.html">News</a>
+                    </li>
+                    <li>
+                        <a href="testimonials.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="testimonials.html">Contact</a>
+                    </li>
+                    <!--<li>
+                      <a href="contact.html">Contact</a>
+                    </li>-->
+                </ul>
+            </nav>
         </div>
-        <div id="camera" class="camera_wrap">
-          <div data-src="images/page-1_slide01.jpg"></div>
-          <div data-src="images/page-1_slide02.jpg"></div>
-          <div data-src="images/page-1_slide03.jpg"></div>
+        <div class="header-top">
+            <div class="camera_container">
+                <div class="container brand_container">
+                    <div class="top-panel">
+                        <ul class="list">
+                            <li><span class="fa fa-map-marker"></span>Bagpota, Kolkata, West Bengal 700141</li>
+                            <li><a href="callto:#"><span class="fa fa-phone"></span>+91 9739988366</a></li>
+                            <!--<li><a href="#"><span class="fa fa-child"></span>login or register</a></li>-->
+                        </ul>
+                    </div>
+                    <div class="brand">
+                        <h1 class="brand_name">
+                            <a href="./">Chitrayan</a>
+                        </h1>
+                        <p class="brand_slogan">
+                            A modern movie town in the heart of Kolkata
+                        </p>
+                    </div>
+                </div>
+                <div id="camera" class="camera_wrap">
+                    <div data-src="images/page-1_slide01.jpg"></div>
+                    <div data-src="images/page-1_slide02.jpg"></div>
+                    <div data-src="images/page-1_slide03.jpg"></div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </header>
-  <!--========================================================
-                            CONTENT
-  =========================================================-->
-  <main id="mainContent">
-    <section class="well2">
-      <div class="container wow fadeInUp">
-        <div class="row">
-          <div class="grid_12">
-            <h2>chitrayan!</h2>
-            <h5>Leader in providing shooting locations for producing feature films, made for TV movies, dramatic, comedy and reality television series, as well as, factual and lifestyle programming.</h5>
-          </div>
-        </div>
-        <div class="row">
-          <div class="grid_6">
-            <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel cur eleifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestibulum libero nisl porta vel sceleriue eget malesuada at nequeVivam us eget nibh. Etiamursus leo vel metus. Nulla facilisi. </p>
-          </div>
-          <div class="grid_6">
-            <p>Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestibulum libero nisl porta vel sceleriue eget malesuada at nequeVivam us eget nibh. Etiamursus leo vel metus. Nulla facilisean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et trices posuere cubi.</p>
-          </div>
-        </div>
-        <div class="row tc mt1">
-          <div class="grid_12">
-            <a class="btn" href="#">read more</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="well1">
-      <div class="container">
-        <div class="row">
-          <div class="grid_4 wow fadeInRight">
-            <div class="box">
-              <h4>LOCATION SCOUTING</h4>
-              <a data-fancybox-group="1" class="thumb" href="images/page-1_img01_original.jpg">
-                <img src="images/page-1_img01.jpg" alt="">
-                <span class="thumb_overlay"><span><span>mark kleiman</span></span></span>
-              </a>
-              <h6>Mauris fermeum dictum magna.</h6>
-              <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curs.</p>
-              <a class="btn" href="#">read more</a>
+    </header>
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+    <main id="mainContent">
+        <section class="well2">
+            <div class="container wow fadeInUp">
+                <div class="row">
+                    <div class="grid_12">
+                        <h2>chitrayan!</h2>
+                        <h5>Leader in providing shooting locations for producing feature films, made for TV movies,
+                            dramatic, comedy and reality television series, as well as, factual and lifestyle
+                            programming.</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <div class="grid_6">
+                            <p>Situated very close to the city, Chitrayan Film Studio provides modern and sophisticated facilities to cater to all your needs. Conveniently located and accessible through several modes of transport, Chitrayan is proving to be the first choice of all major production houses.</p>
+                        </div>
+                        <div class="grid_6">
+                            <p>A shooting floor equipped with modern technologies, power back up, dressing rooms, plenty of parking space, this studio takes care of all your concerns and provides you a hassle free environment for your shooting. One stop solution for all your shooting needs.</p>
+                        </div>
+                    </div>
+                    <!--<div class="row tc mt1">
+                        <div class="grid_12">
+                            <a class="btn" href="#">read more</a>
+                        </div>
+                    </div>-->
+                </div>
+                <!--<div class="row tc mt1">
+                    <div class="grid_12">
+                        <a class="btn" href="#">read more</a>
+                    </div>
+                </div>-->
             </div>
-          </div>
-          <div class="grid_4 wow fadeInRight" data-wow-delay="0.2s">
-            <div class="box">
-              <h4>PRE-PRODUCTION</h4>
-              <a data-fancybox-group="1" class="thumb" href="images/page-1_img02_original.jpg">
-                <img src="images/page-1_img02.jpg" alt="">
-                <span class="thumb_overlay"><span><span>mark kleiman</span></span></span>
-              </a>
-              <h6>Sed loreet aliquam leote llus dol.</h6>
-              <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curs.</p>
-              <a class="btn" href="#">read more</a>
+        </section>
+        <section class="well1">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_4 wow fadeInRight">
+                        <div class="box">
+                            <h4>SHOOTING FLOOR</h4>
+                            <a data-fancybox-group="1" class="thumb" href="images/page-1_img01_original.jpg">
+                                <img src="images/page-1_img01.jpg" alt="">
+                                <span class="thumb_overlay"><span><span>Chitrayan!</span></span></span>
+                            </a>
+                            <h6>Mauris fermeum dictum magna.</h6>
+                            <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum
+                                vel curs.</p>
+                            <!--<a class="btn" href="#">read more</a>-->
+                        </div>
+                    </div>
+                    <div class="grid_4 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="box">
+                            <h4>DRESSING ROOMS</h4>
+                            <a data-fancybox-group="1" class="thumb" href="images/page-1_img02_original.jpg">
+                                <img src="images/page-1_img02.jpg" alt="">
+                                <span class="thumb_overlay"><span><span>Chitrayan!</span></span></span>
+                            </a>
+                            <h6>Sed loreet aliquam leote llus dol.</h6>
+                            <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum
+                                vel curs.</p>
+                            <!--<a class="btn" href="#">read more</a>-->
+                        </div>
+                    </div>
+                    <div class="grid_4 wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="box">
+                            <h4>PRODUCTION ROOM</h4>
+                            <a data-fancybox-group="1" class="thumb" href="images/page-1_img03_original.jpg">
+                                <img src="images/page-1_img03.jpg" alt="">
+                                <span class="thumb_overlay"><span><span>Chitrayan!</span></span></span>
+                            </a>
+                            <h6>Mauris fermeum dictum magna.</h6>
+                            <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum
+                                vel curs.</p>
+                            <!--<a class="btn" href="#">read more</a>-->
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="grid_4 wow fadeInRight" data-wow-delay="0.4s">
-            <div class="box">
-              <h4>BRAND BUILDERS</h4>
-              <a data-fancybox-group="1" class="thumb" href="images/page-1_img03_original.jpg">
-                <img src="images/page-1_img03.jpg" alt="">
-                <span class="thumb_overlay"><span><span>mark kleiman</span></span></span>
-              </a>
-              <h6>Mauris fermeum dictum magna.</h6>
-              <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curs.</p>
-              <a class="btn" href="#">read more</a>
+        </section>
+        <section class="parallax parallax_1" data-url="images/parallax1.jpg">
+            <div class="container">
+                <h3>Gallery</h3>
+                <div class="gallery">
+                    <div id="isotop_filters" class="button-group">
+                        <span data-filter=".category01">Gallery 1</span>
+                        <span data-filter=".category02">Gallery 2</span>
+                        <span data-filter=".category03">Gallery 3</span>
+                        <span data-filter="*" class="is-checked">all galleries</span>
+                    </div>
+                    <div class="row isotop">
+                        <div class="grid_4 isotop_item category01">
+                            <a data-fancybox-group="1" class="thumb" href="images/page-1_img04_original.jpg">
+                                <img src="images/page-1_img04.jpg" alt="">
+                                <span class="thumb_overlay"><span><span>Chitrayan!</span></span></span>
+                            </a>
+                        </div>
+                        <div class="grid_4 isotop_item category01">
+                            <a data-fancybox-group="1" class="thumb" href="images/page-1_img05_original.jpg">
+                                <img src="images/page-1_img05.jpg" alt="">
+                                <span class="thumb_overlay"><span><span>Chitrayan!</span></span></span>
+                            </a>
+                        </div>
+                        <div class="grid_4 isotop_item category02">
+                            <a data-fancybox-group="1" class="thumb" href="images/page-1_img06_original.jpg">
+                                <img src="images/page-1_img06.jpg" alt="">
+                                <span class="thumb_overlay"><span><span>Chitrayan!</span></span></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row isotop">
+                        <div class="grid_4 isotop_item category03">
+                            <a data-fancybox-group="1" class="thumb" href="images/page-1_img07_original.jpg">
+                                <img src="images/page-1_img07.jpg" alt="">
+                                <span class="thumb_overlay"><span><span>Chitrayan!</span></span></span>
+                            </a>
+                        </div>
+                        <div class="grid_4 isotop_item category01">
+                            <a data-fancybox-group="1" class="thumb" href="images/page-1_img08_original.jpg">
+                                <img src="images/page-1_img08.jpg" alt="">
+                                <span class="thumb_overlay"><span><span>Chitrayan!</span></span></span>
+                            </a>
+                        </div>
+                        <div class="grid_4 isotop_item category03">
+                            <a data-fancybox-group="1" class="thumb" href="images/page-1_img09_original.jpg">
+                                <img src="images/page-1_img09.jpg" alt="">
+                                <span class="thumb_overlay"><span><span>Chitrayan!</span></span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="parallax parallax_1" data-url="images/parallax1.jpg">
-      <div class="container">
-        <h3>Gallery</h3>
-        <div class="gallery">
-          <div id="isotop_filters" class="button-group">
-            <span data-filter=".category01">Gallery 1</span>
-            <span data-filter=".category02">Gallery 2</span>
-            <span data-filter=".category03">Gallery 3</span>
-            <span data-filter="*" class="is-checked">all galleries</span>
-          </div>
-          <div class="row isotop">
-            <div class="grid_4 isotop_item category01">
-              <a data-fancybox-group="1" class="thumb" href="images/page-1_img04_original.jpg">
-                <img src="images/page-1_img04.jpg" alt="">
-                <span class="thumb_overlay"><span><span>mark kleiman</span></span></span>
-              </a>
+        </section>
+        <section>
+            <div class="container well3">
+                <h3>Chitrayan so far....</h3>
             </div>
-            <div class="grid_4 isotop_item category01">
-              <a data-fancybox-group="1" class="thumb" href="images/page-1_img05_original.jpg">
-                <img src="images/page-1_img05.jpg" alt="">
-                <span class="thumb_overlay"><span><span>mark kleiman</span></span></span>
-              </a>
+            <div class="parallax parallax_2" data-url="images/parallax2.jpg"></div>
+            <!--<div class="container well4">
+                <div class="row">
+                    <div class="grid_6 wow fadeInLeft">
+                        <h5>Lorem ipsum dolor sit amet </h5>
+                        <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel
+                            curss eleifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer
+                            rutrum ante eu lacuestibulum libero nisl porta vel scelerie eget malesu.</p>
+                        <a class="btn" href="#">read more</a>
+                    </div>
+                    <div class="grid_6 wow fadeInRight">
+                        <h5>Eum libero nisl porta </h5>
+                        <p>Faucibus orci luctus et trices posuere cubilia Suspendisse sollicit udin velit sed leo. Ut
+                            pharetra aue nec augentum. Donec in velit vel ipsum auue. Nam elit magna Donec porta diam eu
+                            massa. Quisque diam lorem interdum vitaapibus ac sceleris.</p>
+                        <a class="btn" href="#">read more</a>
+                    </div>
+                </div>
+            </div>-->
+        </section>
+        <section class="video" data-vide-bg="video/video">
+            <div class="container vide_content color1">
+                <div class="row">
+                    <div class="grid_3">
+                        <div class="box2">
+                            <a href="#" class="box2_top">
+                                <div class="counter">01</div>
+                                <h3>Movies</h3>
+                            </a>
+                            <h5><a href="#">Lorem ipsum</a></h5>
+                            <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum
+                                vel curss eleifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis.
+                                Integer rutrum ante eu lacuestib ulum libero nisl porta vel scelerie eget mal esuada at
+                                neque. Vivamus eget nibh. Etiamursus leo vel metus. Nulla facilisi lacuestib. Aenean nec
+                                eros.</p>
+                        </div>
+                    </div>
+                    <div class="grid_3">
+                        <div class="box2">
+                            <a href="#" class="box2_top">
+                                <div class="counter">02</div>
+                                <h3>dvd</h3>
+                            </a>
+                            <h5><a href="#">Lorem ipsum</a></h5>
+                            <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum
+                                vel curss eleifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis.
+                                Integer rutrum ante eu lacuestib ulum libero nisl porta vel scelerie eget mal esuada at
+                                neque. Vivamus eget nibh. Etiamursus leo vel metus. Nulla facilisi lacuestib. Aenean nec
+                                eros.</p>
+                        </div>
+                    </div>
+                    <div class="grid_3">
+                        <div class="box2">
+                            <a href="#" class="box2_top">
+                                <div class="counter">03</div>
+                                <h3>tv</h3>
+                            </a>
+                            <h5><a href="#">Lorem ipsum</a></h5>
+                            <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum
+                                vel curss eleifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis.
+                                Integer rutrum ante eu lacuestib ulum libero nisl porta vel scelerie eget mal esuada at
+                                neque. Vivamus eget nibh. Etiamursus leo vel metus. Nulla facilisi lacuestib. Aenean nec
+                                eros.</p>
+                        </div>
+                    </div>
+                    <div class="grid_3">
+                        <div class="box2">
+                            <a href="#" class="box2_top">
+                                <div class="counter">04</div>
+                                <h3>shows</h3>
+                            </a>
+                            <h5><a href="#">Lorem ipsum</a></h5>
+                            <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum
+                                vel curss eleifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis.
+                                Integer rutrum ante eu lacuestib ulum libero nisl porta vel scelerie eget mal esuada at
+                                neque. Vivamus eget nibh. Etiamursus leo vel metus. Nulla facilisi lacuestib. Aenean nec
+                                eros.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="grid_4 isotop_item category02">
-              <a data-fancybox-group="1" class="thumb" href="images/page-1_img06_original.jpg">
-                <img src="images/page-1_img06.jpg" alt="">
-                <span class="thumb_overlay"><span><span>mark kleiman</span></span></span>
-              </a>
+        </section>
+        <section>
+            <div class="container well3">
+                <h3>Location on Map</h3>
             </div>
-          </div>
-          <div class="row isotop">
-            <div class="grid_4 isotop_item category03">
-              <a data-fancybox-group="1" class="thumb" href="images/page-1_img07_original.jpg">
-                <img src="images/page-1_img07.jpg" alt="">
-                <span class="thumb_overlay"><span><span>mark kleiman</span></span></span>
-              </a>
+            <div class="map">
+                <div id="google-map" class="map_model"></div>
+                <ul class="map_locations">
+                    <li data-x="22.4538082" data-y="88.2816636">
+                        <p>Bagpota, Kolkata, West Bengal 700141</p>
+                    </li>
+                </ul>
             </div>
-            <div class="grid_4 isotop_item category01">
-              <a data-fancybox-group="1" class="thumb" href="images/page-1_img08_original.jpg">
-                <img src="images/page-1_img08.jpg" alt="">
-                <span class="thumb_overlay"><span><span>mark kleiman</span></span></span>
-              </a>
-            </div>
-            <div class="grid_4 isotop_item category03">
-              <a data-fancybox-group="1" class="thumb" href="images/page-1_img09_original.jpg">
-                <img src="images/page-1_img09.jpg" alt="">
-                <span class="thumb_overlay"><span><span>mark kleiman</span></span></span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container well3">
-        <h3>What we do</h3>
-      </div>
-      <div class="parallax parallax_2" data-url="images/parallax2.jpg"></div>
-      <div class="container well4">
-        <div class="row">
-          <div class="grid_6 wow fadeInLeft">
-            <h5>Lorem ipsum dolor sit amet </h5>
-            <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curss eleifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestibulum libero nisl porta vel scelerie eget malesu.</p>
-            <a class="btn" href="#">read more</a>
-          </div>
-          <div class="grid_6 wow fadeInRight">
-            <h5>Eum libero nisl porta </h5>
-            <p>Faucibus orci luctus et trices posuere cubilia Suspendisse sollicit udin velit sed leo. Ut pharetra aue nec augentum. Donec in velit vel ipsum auue. Nam elit magna Donec porta diam eu massa. Quisque diam lorem interdum vitaapibus ac sceleris.</p>
-            <a class="btn" href="#">read more</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="vide" data-vide-bg="video/video">
-      <div class="container vide_content color1">
-        <div class="row">
-          <div class="grid_3">
-            <div class="box2">
-              <a href="#" class="box2_top">
-                <div class="counter">01</div>
-                <h3>Movies</h3>
-              </a>
-              <h5><a href="#">Lorem ipsum</a></h5>
-              <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curss eleifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestib ulum libero nisl porta vel scelerie eget mal esuada at neque. Vivamus eget nibh. Etiamursus leo vel metus. Nulla facilisi lacuestib. Aenean nec eros.</p>
-            </div>
-          </div>
-          <div class="grid_3">
-            <div class="box2">
-              <a href="#" class="box2_top">
-                <div class="counter">02</div>
-                <h3>dvd</h3>
-              </a>
-              <h5><a href="#">Lorem ipsum</a></h5>
-              <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curss eleifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestib ulum libero nisl porta vel scelerie eget mal esuada at neque. Vivamus eget nibh. Etiamursus leo vel metus. Nulla facilisi lacuestib. Aenean nec eros.</p>
-            </div>
-          </div>
-          <div class="grid_3">
-            <div class="box2">
-              <a href="#" class="box2_top">
-                <div class="counter">03</div>
-                <h3>tv</h3>
-              </a>
-              <h5><a href="#">Lorem ipsum</a></h5>
-              <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curss eleifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestib ulum libero nisl porta vel scelerie eget mal esuada at neque. Vivamus eget nibh. Etiamursus leo vel metus. Nulla facilisi lacuestib. Aenean nec eros.</p>
-            </div>
-          </div>
-          <div class="grid_3">
-            <div class="box2">
-              <a href="#" class="box2_top">
-                <div class="counter">04</div>
-                <h3>shows</h3>
-              </a>
-              <h5><a href="#">Lorem ipsum</a></h5>
-              <p>Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curss eleifend elit. Aenean aucto. wisi et urna. Aliqat volutpat. Duisac turpis. Integer rutrum ante eu lacuestib ulum libero nisl porta vel scelerie eget mal esuada at neque. Vivamus eget nibh. Etiamursus leo vel metus. Nulla facilisi lacuestib. Aenean nec eros.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="map">
-        <div id="google-map" class="map_model"></div>
-        <ul class="map_locations">
-          <li data-x="-73.9874068" data-y="40.638000">
-            <p>9863 - 9867 Mill Road, Cambridge, MG09 99HT</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
+        </section>
+    </main>
 
-  <!--========================================================
-                            FOOTER
-  =========================================================-->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="grid_4">
-          <div class="brand">
-            <h1 class="brand_name">
-              <a href="./">Chitrayan</a>
-            </h1>
-          </div>
-          <p class="copy">Chitrayan ©
-            <span id="copyright-year"></span> 
-            <span class="dot"></span>
-            <a href="privacy.html">Privacy Policy</a>
-          </p>
+    <!--========================================================
+                              FOOTER
+    =========================================================-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="grid_4">
+                    <div class="brand">
+                        <h1 class="brand_name">
+                            <a href="./">Chitrayan</a>
+                        </h1>
+                    </div>
+                    <p class="copy">Chitrayan ©
+                        <span id="copyright-year"></span>
+                        <span class="dot"></span>
+                        <a href="privacy.html">Privacy Policy</a>
+                    </p>
+                </div>
+                <div class="grid_3">
+                    <h5>Contacts</h5>
+                    <address class="addr">
+                        <p>Bagpota, Kolkata, West Bengal 700141</p>
+                        <p>Freephone: <a href="callto:#">+91 9739988366</a></p>
+                    </address>
+                </div>
+                <div class="grid_5">
+                    <h5>Follow us</h5>
+                    <ul class="social-list">
+                        <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                        <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+                        <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                        <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- {%FOOTER_LINK} -->
         </div>
-        <div class="grid_3">
-          <h5>Contacts</h5>
-          <address class="addr">
-            <p>Bagpota, Kolkata, West Bengal 700141</p>
-            <p>Freephone:  <a href="callto:#">+91 9739988366</a></p>
-          </address>
-        </div> 
-        <div class="grid_5">
-          <h5>Follow us</h5>
-          <ul class="social-list">
-            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-            <li><a href="#"><span class="fa fa-pinterest"></span></a></li>  
-            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-          </ul> 
-        </div>
-      </div>
-      <!-- {%FOOTER_LINK} -->
-    </div>
-  </footer>
+    </footer>
 </div>
 
 <script src="js/utility/pageLoader.js"></script>
 <script src="js/utility/script.js"></script>
+<script defer src ="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwLBvjNDEkLkboMNpLY_E_VTaCm-XxRLc&callback=initMap">
+</script>
+<script>
+    function initMap() {
+        console.log('in map');
+        var chitrayan = {lat: 22.4538082, lng: 88.2816636};
+
+        var map = new google.maps.Map(document.getElementById('google-map'), {
+            zoom: 14,
+            center: chitrayan,
+            cntClass: 'map',
+            mapClass: 'map_model',
+            locationsClass: 'map_locations',
+            marker: {
+                basic: 'images/gmap_marker.png',
+                active: 'images/gmap_marker_active.png'
+            },
+        });
+
+        var marker = new google.maps.Marker({
+            position: chitrayan,
+            map: map
+        });
+    }
+</script>
 </body>
 </html>

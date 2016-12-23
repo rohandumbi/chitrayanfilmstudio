@@ -99,10 +99,10 @@ include('js/jquery.easing.1.3.js');
 /* Google Map
  ========================================================*/
 ;
-(function ($) {
+/*(function ($) {
     var o = document.getElementById("google-map");
     if (o) {
-        include('//maps.google.com/maps/api/js?sensor=false');
+        include('//maps.google.com/maps/api/js?key=AIzaSyBwLBvjNDEkLkboMNpLY_E_VTaCm-XxRLc&sensor=false');
         include('js/jquery.rd-google-map.js');
 
         $(document).ready(function () {
@@ -247,7 +247,7 @@ include('js/jquery.easing.1.3.js');
         });
     }
 })
-(jQuery);
+(jQuery);*/
 
 /* Camera
 ========================================================*/

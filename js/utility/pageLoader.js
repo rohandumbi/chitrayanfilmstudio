@@ -10,10 +10,11 @@ function callPage(pageRefInput) {
             console.log("successfully loaded page");
             if(pageRefInput === 'home.html'){
                 $('.camera_container').show();
+                window.location.reload();
             }else{
                 $('.camera_container').hide();
+                $('#mainContent').html(response);
             }
-            $('#mainContent').html(response);
             //include('js/utility/script.js');
         },
         error: function(error) {

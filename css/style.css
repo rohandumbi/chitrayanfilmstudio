@@ -17,8 +17,8 @@ img {
 
 h1 {
   font-family: 'Pacifico', cursive;
-  font-size: 210px;
-  line-height: 230px;
+  font-size: 160px;
+  line-height: 180px;
   letter-spacing: -5px; }
   @media (max-width: 1199px) and (min-width: 768px) {
     h1 {
@@ -27,7 +27,7 @@ h1 {
       padding-right: 20px; } }
   @media (max-width: 767px) {
     h1 {
-      font-size: 85px;
+      font-size: 70px;
       line-height: 100px;
       letter-spacing: -2px; } }
 
@@ -191,7 +191,7 @@ h2 + * {
   .brand_name a {
     display: block; }
   .brand_slogan {
-    margin-top: 10px;
+    margin-top: 30px;
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 20px;
     line-height: 30px;

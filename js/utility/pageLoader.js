@@ -30,13 +30,13 @@ $("header").on( "click", "a", function( event ) {
     callPage($(this).attr('href'));
 });
 
-/*$("body").on( "click", "a", function( event ) {
+$("body").on( "click", "a", function( event ) {
     event.preventDefault();
     $('li').removeClass('active');
     $(this).parent().addClass('active');
     //console.log('HREF: ' +  $(this).attr('href'));
     callPage($(this).attr('href'));
-});*/
+});
 
 $(document).ready(function () {
     //callPage("home.html");

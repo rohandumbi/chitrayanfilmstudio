@@ -32,7 +32,7 @@ $("header").on( "click", "a", function( event ) {
 
 $("body").on( "click", "a", function( event ) {
     event.preventDefault();
-    if($(event.currentTarget).hasClass('thumb')) return;
+    if($(event.currentTarget).hasClass('thumb') || $(event.currentTarget).hasClass('btn')) return;
     $('li').removeClass('active');
     $(this).parent().addClass('active');
     //console.log('HREF: ' +  $(this).attr('href'));

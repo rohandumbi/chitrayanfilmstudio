@@ -9,7 +9,7 @@ function callPage(pageRefInput) {
         success: function(response){
             console.log("successfully loaded page");
             if(pageRefInput === 'home.html'){
-                $('.camera_container').show();
+                //$('.camera_container').show();
                 window.location.reload();
             }else{
                 $('.camera_container').hide();
@@ -32,6 +32,7 @@ $("header").on( "click", "a", function( event ) {
 
 $("body").on( "click", "a", function( event ) {
     event.preventDefault();
+    if($(event.currentTarget).hasClass('thumb')) return;
     $('li').removeClass('active');
     $(this).parent().addClass('active');
     //console.log('HREF: ' +  $(this).attr('href'));

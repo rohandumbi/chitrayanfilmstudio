@@ -10,6 +10,9 @@ body {
   color: #928e92;
   font: 300 13px/20px "Ubuntu", sans-serif;
   -webkit-text-size-adjust: none; }
+p {
+  font-size: 16px;
+}
 
 img {
   max-width: 100%;

@@ -103,10 +103,10 @@ include('js/jquery.easing.1.3.js');
 /* Google Map
  ========================================================*/
 ;
-/*(function ($) {
+(function ($) {
     var o = document.getElementById("google-map");
     if (o) {
-        include('//maps.google.com/maps/api/js?key=AIzaSyBwLBvjNDEkLkboMNpLY_E_VTaCm-XxRLc&sensor=false');
+        include('//maps.google.com/maps/api/js?sensor=false');
         include('js/jquery.rd-google-map.js');
 
         $(document).ready(function () {
@@ -251,7 +251,7 @@ include('js/jquery.easing.1.3.js');
         });
     }
 })
-(jQuery);*/
+(jQuery);
 
 /* Camera
 ========================================================*/
@@ -262,12 +262,12 @@ var o = $('#camera');
             include('js/jquery.mobile.customized.min.js');
         }
 
-        include('js/lib/camera_legacy.js');
+        include('js/camera.js');
 
         $(document).ready(function () {
             o.camera({
                 autoAdvance: true,
-                height: '40%',
+                height: '50%',
                 minHeight: '600px',
                 pagination: true,
                 thumbnails: false,

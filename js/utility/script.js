@@ -255,14 +255,14 @@ include('js/jquery.easing.1.3.js');
 
 /* Camera
 ========================================================*/
-;(function ($) {
+;/*(function ($) {
 var o = $('#camera');
     if (o.length > 0) {
         if (!(isIE() && (isIE() > 9))) {
             include('js/jquery.mobile.customized.min.js');
         }
 
-        include('js/lib/camera_legacy.js');
+        //include('js/lib/camera_legacy.js');
 
         $(document).ready(function () {
             o.camera({
@@ -281,7 +281,7 @@ var o = $('#camera');
             })
         });
     }
-})(jQuery);
+})(jQuery);*/
 
 /* FancyBox
 ========================================================*/

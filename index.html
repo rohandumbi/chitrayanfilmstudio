@@ -19,6 +19,7 @@
 
     <script src="js/lib/jquery.js"></script>
     <script src="js/jquery-migrate-1.2.1.js"></script>
+    <script src="js/lib/camera_legacy.js"></script>
 
     <!--[if lt IE 9]>
     <html class="lt-ie9">
@@ -32,6 +33,26 @@
     <![endif]-->
 
     <script src='js/device.min.js'></script>
+    <script>
+        function loadCarousel(){
+            //alert('carousel loaded');
+            var o = $('#camera');
+            o.camera({
+                autoAdvance: true,
+                height: '40%',
+                minHeight: '600px',
+                pagination: true,
+                thumbnails: false,
+                playPause: false,
+                hover: false,
+                loader: 'none',
+                navigation: true,
+                navigationHover: false,
+                mobileNavHover: false,
+                fx: 'simpleFade'
+            })
+        }
+    </script>
     <!--<script src='http://maps.google.com/maps/api/js?key=AIzaSyBwLBvjNDEkLkboMNpLY_E_VTaCm-XxRLc'></script>-->
 </head>
 <body>
@@ -124,7 +145,7 @@
                         </p>
                     </div>
                 </div>
-                <div id="camera" class="camera_wrap">
+                <div id="camera" class="camera_wrap" onload="loadCarousel();">
                     <!--<div data-src="images/chitrayan/carousel/9.JPG"></div>-->
                     <div data-src="images/chitrayan/carousel/9.JPG"></div>
                     <div data-src="images/chitrayan/carousel/1.JPG"></div>
@@ -136,6 +157,9 @@
                     <!--<div data-src="images/chitrayan/carousel/7.JPG"></div>-->
                     <div data-src="images/chitrayan/carousel/8.JPG"></div>
                 </div>
+                <script type="text/javascript">
+                    loadCarousel();
+                </script>
             </div>
         </div>
     </header>

@@ -32,11 +32,14 @@ $("header").on( "click", "a", function( event ) {
 
 $("body").on( "click", "a", function( event ) {
     event.preventDefault();
-    if($(event.currentTarget).hasClass('thumb') || $(event.currentTarget).hasClass('btn')) return;
-    $('li').removeClass('active');
-    $(this).parent().addClass('active');
-    //console.log('HREF: ' +  $(this).attr('href'));
-    callPage($(this).attr('href'));
+    if($(event.currentTarget).hasClass('page-link')){
+        $('li').removeClass('active');
+        $(this).parent().addClass('active');
+        //console.log('HREF: ' +  $(this).attr('href'));
+        callPage($(this).attr('href'));
+    }else{
+        return;
+    }
 });
 
 $(document).ready(function () {

@@ -874,10 +874,10 @@ header {
     z-index: 10; }
     @media (max-width: 1799px) and (min-width: 1200px) {
       header .brand_container .brand {
-        margin-top: 130px; } }
+        margin-top: 110px; } }
     @media (min-width: 1800px) {
       header .brand_container .brand {
-        margin-top: 240px; } }
+        margin-top: 160px; } }
 
 .header-bg {
   background: no-repeat url(../images/bg2.jpg) top center;

@@ -84,13 +84,13 @@
   background: #fff url(../images/camera-loader.gif) no-repeat center;
   border: 1px solid #ffffff;
   border-radius: 18px;
-  height: 36px;
+  height: 300px;
   left: 50%;
   overflow: hidden;
   position: absolute;
-  margin: -18px 0 0 -18px;
-  top: 75%;
-  width: 36px;
+  margin: -200px 0 0 -200px;
+  top: 50%;
+  width: 400px;
   z-index: 30; }
 
 .camera_nav_cont {

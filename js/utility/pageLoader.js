@@ -11,6 +11,8 @@ function callPage(pageRefInput) {
             if(pageRefInput === 'home.html'){
                 //$('.camera_container').show();
                 window.location.reload();
+                /*$('.camera_container').show();
+                $('#mainContent').html(response);*/
             }else{
                 $('.camera_container').hide();
                 $('#mainContent').html(response);

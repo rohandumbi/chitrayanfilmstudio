@@ -301,7 +301,7 @@
       <workItem from="1483347833661" duration="24581000" />
       <workItem from="1484042453302" duration="7417000" />
       <workItem from="1484716008304" duration="21099000" />
-      <workItem from="1485887146588" duration="13231000" />
+      <workItem from="1485887146588" duration="13315000" />
     </task>
     <task id="LOCAL-00001" summary="Changes. Templating more or less completed. Converted into single page app">
       <created>1481694023997</created>
@@ -429,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486028411459</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added images">
+      <created>1486028442564</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1486028442564</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104677000" />
+    <option name="totallyTimeSpent" value="104761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />

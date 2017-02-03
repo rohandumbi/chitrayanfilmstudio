@@ -23,21 +23,21 @@
                 <fieldset>
                     <div class="input-wrap">
                         <label class="name">
-                            <input type="text" name="contact_name" placeholder="Name:" value=""
+                            <input type="text" id="contact_name" name="contact_name" placeholder="Name:" value=""
                                    data-constraints="@Required @JustLetters"/>
 
                             <span class="empty-message">*This field is required.</span>
                             <span class="error-message">*This is not a valid name.</span>
                         </label>
                         <label class="email">
-                            <input type="text" name="contact_email" placeholder="E-mail:" value=""
+                            <input type="text"  id="contact_email" name="contact_email" placeholder="E-mail:" value=""
                                    data-constraints="@Required @Email"/>
 
                             <span class="empty-message">*This field is required.</span>
                             <span class="error-message">*This is not a valid email.</span>
                         </label>
                         <label class="phone">
-                            <input type="text" name="contact_phone" placeholder="Phone:" value=""
+                            <input type="text"  id="contact_phone"  name="contact_phone" placeholder="Phone:" value=""
                                    data-constraints="@JustNumbers"/>
 
                             <span class="empty-message">*This field is required.</span>
@@ -45,8 +45,8 @@
                         </label>
                     </div>
                     <label class="message">
-                  <textarea name="contact_comments" placeholder="Message:"
-                            data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+                  <textarea  id="contact_comments" name="contact_comments" placeholder="Message:"
+                             data-constraints='@Required @Length(min=20,max=999999)'></textarea>
 
                         <span class="empty-message">*This field is required.</span>
                         <span class="error-message">*The message is too short.</span>
@@ -95,13 +95,13 @@
         var posting = $.post( url, {
             contact_name: $('#contact_name').val(),
             contact_email: $('#contact_email').val(),
-            /*contact_subject: $('#contact_subject').val(),*/
+            contact_phone: $('#contact_phone').val(),
             contact_comments: $('#contact_comments').val()
         } );
 
         /* Alerts the results */
         posting.done(function( data ) {
-            alert('success');
+            alert('Thank you for writing to us.');
         });
     });
 </script>

@@ -37,8 +37,10 @@ $("body").on( "click", "a", function( event ) {
     if($(event.currentTarget).hasClass('page-link')){
         $('li').removeClass('active');
         $(this).parent().addClass('active');
-        //console.log('HREF: ' +  $(this).attr('href'));
         callPage($(this).attr('href'));
+        //$('.rd-mobilemenu').toggleClass('active');
+        //$('.rd-mobilepanel_toggle').toggleClass('active');
+        $('.rd-mobilepanel_toggle').trigger('click');
     }else{
         return;
     }

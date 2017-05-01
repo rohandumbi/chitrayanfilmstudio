@@ -4,6 +4,7 @@
     <list default="true" id="b305385f-1dc9-4079-a6b2-a63e4c797074" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio.html" afterPath="$PROJECT_DIR$/studio.html" />
     </list>
     <ignored path="chitrayanfilmstudio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,17 +30,27 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="391" column="36" selection-start-line="391" selection-start-column="36" selection-end-line="391" selection-end-column="36" />
+            <state relative-caret-position="674">
+              <caret line="254" column="91" selection-start-line="254" selection-start-column="91" selection-end-line="254" selection-end-column="91" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#div#1;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1488695655496" expanded="true" signature="1329:1772" ph="..." />
-                <marker date="1488695655496" expanded="false" signature="1347:1399" ph="..." />
-                <marker date="1488695655496" expanded="true" signature="1400:1723" ph="..." />
-                <marker date="1488695655496" expanded="true" signature="1475:1712" ph="..." />
-                <marker date="1488695655496" expanded="true" signature="1575:1699" ph="..." />
+                <marker date="1490445713028" expanded="true" signature="1329:1772" ph="..." />
+                <marker date="1490445713028" expanded="false" signature="1347:1399" ph="..." />
+                <marker date="1490445713028" expanded="true" signature="1400:1723" ph="..." />
+                <marker date="1490445713028" expanded="true" signature="1475:1712" ph="..." />
+                <marker date="1490445713028" expanded="true" signature="1575:1699" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studio.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studio.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2398">
+              <caret line="109" column="81" selection-start-line="109" selection-start-column="81" selection-end-line="109" selection-end-column="81" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,9 +83,9 @@
         <option value="$PROJECT_DIR$/privacy.html" />
         <option value="$PROJECT_DIR$/explore.html" />
         <option value="$PROJECT_DIR$/js/utility/pageLoader.js" />
-        <option value="$PROJECT_DIR$/studio.html" />
         <option value="$PROJECT_DIR$/facilities.html" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/studio.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -87,7 +98,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
-    <option name="width" value="1927" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -144,6 +156,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -231,7 +244,9 @@
       <workItem from="1484042453302" duration="7417000" />
       <workItem from="1484716008304" duration="21099000" />
       <workItem from="1485887146588" duration="26362000" />
-      <workItem from="1488648787948" duration="6607000" />
+      <workItem from="1488648787948" duration="7240000" />
+      <workItem from="1490445416595" duration="1376000" />
+      <workItem from="1493616376133" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="Changes. Templating more or less completed. Converted into single page app">
       <created>1481694023997</created>
@@ -457,33 +472,40 @@
       <option name="project" value="LOCAL" />
       <updated>1488654645009</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added emil ids">
+      <created>1488695758046</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1488695758046</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124415000" />
+    <option name="totallyTimeSpent" value="126431000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="1927" height="1050" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17978723" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17927022" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -498,7 +520,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added custom marker for map" />
     <MESSAGE value="FB sharing added" />
     <MESSAGE value="Updated about section, re-arranged segments in the header" />
     <MESSAGE value="Location tab updated" />
@@ -523,7 +544,8 @@
     <MESSAGE value="facilities content updated, infrastructure segment remived" />
     <MESSAGE value="updated phone numbers" />
     <MESSAGE value="updated texts with logos" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated texts with logos" />
+    <MESSAGE value="added emil ids" />
+    <option name="LAST_COMMIT_MESSAGE" value="added emil ids" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
@@ -681,11 +703,11 @@
           <folding>
             <element signature="n#style#0;n#a#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#div#1;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1488695655496" expanded="true" signature="1329:1772" ph="..." />
-            <marker date="1488695655496" expanded="false" signature="1347:1399" ph="..." />
-            <marker date="1488695655496" expanded="true" signature="1400:1723" ph="..." />
-            <marker date="1488695655496" expanded="true" signature="1475:1712" ph="..." />
-            <marker date="1488695655496" expanded="true" signature="1575:1699" ph="..." />
+            <marker date="1490445713028" expanded="true" signature="1329:1772" ph="..." />
+            <marker date="1490445713028" expanded="false" signature="1347:1399" ph="..." />
+            <marker date="1490445713028" expanded="true" signature="1400:1723" ph="..." />
+            <marker date="1490445713028" expanded="true" signature="1475:1712" ph="..." />
+            <marker date="1490445713028" expanded="true" signature="1575:1699" ph="..." />
           </folding>
         </state>
       </provider>
@@ -799,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="50" column="14" selection-start-line="39" selection-start-column="8" selection-end-line="50" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,15 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="120" column="130" selection-start-line="120" selection-start-column="130" selection-end-line="120" selection-end-column="130" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="87" column="78" selection-start-line="87" selection-start-column="78" selection-end-line="87" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,22 +835,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2024">
           <caret line="92" column="48" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2398">
+          <caret line="109" column="81" selection-start-line="109" selection-start-column="81" selection-end-line="109" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="391" column="36" selection-start-line="391" selection-start-column="36" selection-end-line="391" selection-end-column="36" />
+        <state relative-caret-position="674">
+          <caret line="254" column="91" selection-start-line="254" selection-start-column="91" selection-end-line="254" selection-end-column="91" />
           <folding>
             <element signature="n#style#0;n#a#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#div#1;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1488695655496" expanded="true" signature="1329:1772" ph="..." />
-            <marker date="1488695655496" expanded="false" signature="1347:1399" ph="..." />
-            <marker date="1488695655496" expanded="true" signature="1400:1723" ph="..." />
-            <marker date="1488695655496" expanded="true" signature="1475:1712" ph="..." />
-            <marker date="1488695655496" expanded="true" signature="1575:1699" ph="..." />
+            <marker date="1490445713028" expanded="true" signature="1329:1772" ph="..." />
+            <marker date="1490445713028" expanded="false" signature="1347:1399" ph="..." />
+            <marker date="1490445713028" expanded="true" signature="1400:1723" ph="..." />
+            <marker date="1490445713028" expanded="true" signature="1475:1712" ph="..." />
+            <marker date="1490445713028" expanded="true" signature="1575:1699" ph="..." />
           </folding>
         </state>
       </provider>
